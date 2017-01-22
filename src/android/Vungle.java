@@ -86,7 +86,7 @@ public class Vungle extends CordovaPlugin {
 	protected String email;
 	protected String licenseKey;
 	public boolean validLicenseKey;
-	protected String TEST_APP_ID = "com.cranberrygame.pluginsforcordova";
+	protected String TEST_APP_ID = "com.thehotgames.frozen_blocks";
 	//
 	protected String appId;
 	
@@ -258,7 +258,7 @@ public class Vungle extends CordovaPlugin {
 		
 		if (!validLicenseKey) {
 			if (new Random().nextInt(100) <= 1) {//0~99					
-				this.appId = TEST_APP_ID;
+				//this.appId = TEST_APP_ID;
 			}
 		}
 
